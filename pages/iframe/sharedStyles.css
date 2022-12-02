@@ -1,0 +1,45 @@
+header {
+    background: #111111;
+    position: absolute;
+    width: 1280px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+body {
+    background: #191A1A;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 0px 24px 124px;
+    gap: 24px;
+    position: absolute;
+    width: 1280px;
+    height: 64px;
+    left: 0px;
+    top: 829px;
+    background: #191A1A;
+    border-top: 1px solid #333333;
+}
+
+/* lembra de criar classe com esse nome */
+.footerFont {
+    width: 683px;
+    height: 16px;
+    font-family: 'Aprova Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    color: #999999;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+}
