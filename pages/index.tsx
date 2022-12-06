@@ -15,7 +15,7 @@ export default function Home() {
 
       <body>
         <div id='logo'>
-          <Image src='/descoSymbol.png' alt='Logo Descomplica' width={76} height={76}/>
+          <Image src='/images/descoSymbol.png' alt='Logo Descomplica' width={76} height={76}/>
         </div>
 
         <div id='subtitle'>
@@ -29,7 +29,7 @@ export default function Home() {
         <div id='loginbutton'>
           <button>
             <span id='content'>
-              <Image src='/googleLogo.png' alt='Logo Google' width={14} height={14}/>
+              <Image src='/images/googleLogo.png' alt='Logo Google' width={14} height={14}/>
               <span>Entrar com o Google</span>
             </span>
           </button>

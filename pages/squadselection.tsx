@@ -1,7 +1,6 @@
 import React from "react";
 import Head from 'next/head'
-import descoSymbol from '../images/descoSymbol.png'
-import userIcon from '../images/userIcon.png'
+import Image from 'next/image'
 
 export default function SquadSelection() {
     return (
@@ -16,7 +15,7 @@ export default function SquadSelection() {
 
             <header>
                 <div id="logoHeader">
-                    <img src={descoSymbol} alt='Logo Descomplica' />
+                    <Image src='/images/descoSymbol.png' alt='Logo Descomplica' width={42} height={44.52} />
                 </div>
 
                 <div id='tabs'>
@@ -33,34 +32,95 @@ export default function SquadSelection() {
 
                 <div id='userEmailButton'>
                     <div id='userEmail'>
-                        <img src={userIcon} alt='Ícone Usuário' />
+                        <Image src='/images/userIcon.png' alt='Ícone Usuário' width={24} height={24} />
                         <span>usuario@email.com</span>
                     </div>
                 </div>
             </header>
 
             <body>
-                <div id="logo">
-                    <img src={descoSymbol} />
+                <div id="selectSquad">
+                    <p>Escolha a squad</p>
                 </div>
 
-                <div id="subtitle">
-                    <p>VOCÊ CHEGOU AO TIME DESCOMPLICA.</p>
+                <div id="firstLine">
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
                 </div>
 
-                <div id="welcome">
-                    <p>Boas vindas!</p>
+                <div id="secondLine">
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
                 </div>
 
-                <div id="loginbutton">
-                    <button>
-                        <span id='content'>
-                            <img alt="Logo Google" />
-                            <span>Entrar com o Google</span>
-                        </span>
-                    </button>
+
+                <div id="thirdLine">
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
+                    <div>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </div>
                 </div>
+
             </body>
+
+            <footer>
+                <p>Tem alguma sugestão ou dúvida? <a href="">Manda pra gente 🔍</a></p>
+            </footer>
 
         </div>
     )

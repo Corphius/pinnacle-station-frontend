@@ -87,6 +87,7 @@ body {
   align-self: stretch;
   flex-grow: 0;
   background: #191A1A;
+  cursor: pointer;
 }
 
 #loginbutton button #content {
@@ -254,6 +255,35 @@ header {
   flex-grow: 0;
 }
 
+#selectSquad {
+  position: absolute;
+  width: 236px;
+  height: 38px;
+  left: 124px;
+  top: 160px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #FFF;
+}
+
+#firstLine,
+#secondLine,
+#thirdLine {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 1032px;
+  height: 120px;
+  left: 124px;
+  top: 249px;
+}
+
 footer {
   box-sizing: border-box;
   display: flex;
@@ -270,8 +300,7 @@ footer {
   border-top: 1px solid #333333;
 }
 
-/* lembrar de criar classe com esse nome */
-.footerFont {
+footer p {
   width: 683px;
   height: 16px;
   font-family: Aprova;
