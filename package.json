@@ -12,18 +12,19 @@
   },
   "dependencies": {
     "@types/node": "18.11.9",
-    "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",
     "next": "^13.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.0-next-d807eb52c-20221205",
+    "react-dom": "^18.3.0-next-f0534ae94-20221202",
     "styled-components": "^5.3.6",
     "typescript": "4.8.4",
     "url-loader": "^3.0.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^17.0.14",
     "css-loader": "^6.7.2",
     "file-loader": "^6.2.0",
+    "react-router-dom": "^6.4.4",
     "style-loader": "^3.3.1"
   }
 }

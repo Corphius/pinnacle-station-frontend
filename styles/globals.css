@@ -3,12 +3,9 @@
   src: url(fonts/Aprova-Regular.otf);
 }
 
-html,
 body {
   background-color: #191A1A;
   position: relative;
-  width: 1280px;
-  height: 893px;
 }
 
 #logo {
@@ -21,28 +18,33 @@ body {
   position: absolute;
   height: 76px;
   left: 46.95%;
-  right: 46, 99%;
-  top: calc(50% - 76px/2 - 178.5px);
+  right: 46.99%;
+  top: 230px; 
 }
 
 #subtitle {
   position: absolute;
   height: 21px;
-  left: 509px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 328px;
   font-family: Aprova;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  text-align: center;
   line-height: 150%;
   color: #999;
 }
 
 #welcome p {
   position: absolute;
-  width: 347px;
+  width: 360px;
   height: 77px;
-  left: 466px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 365px;
   font-family: Aprova;
   font-style: normal;
@@ -64,7 +66,9 @@ body {
   position: absolute;
   width: 415px;
   height: 46px;
-  left: 432px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 476px;
   border-radius: 300px;
   margin-top: 22px;
@@ -87,9 +91,10 @@ body {
   align-self: stretch;
   flex-grow: 0;
   background: #191A1A;
+  cursor: pointer;
 }
 
-#loginbutton button #content {
+#loginbutton button #loginButtonContent {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -103,7 +108,7 @@ body {
   flex-grow: 0;
 }
 
-#loginbutton button #content img {
+#loginbutton button #loginButtonContent img {
   width: 14px;
   height: 14px;
   flex: none;
@@ -111,8 +116,8 @@ body {
   flex-grow: 0;
 }
 
-#loginbutton button #content span {
-  width: 134px;
+#loginbutton button #loginButtonContent span {
+  width: 150px;
   height: 14px;
   font-family: Aprova;
   font-style: normal;
@@ -254,6 +259,35 @@ header {
   flex-grow: 0;
 }
 
+#selectSquad {
+  position: absolute;
+  width: 236px;
+  height: 38px;
+  left: 124px;
+  top: 160px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #FFF;
+}
+
+#firstLine,
+#secondLine,
+#thirdLine {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 1032px;
+  height: 120px;
+  left: 124px;
+  top: 249px;
+}
+
 footer {
   box-sizing: border-box;
   display: flex;
@@ -270,8 +304,7 @@ footer {
   border-top: 1px solid #333333;
 }
 
-/* lembrar de criar classe com esse nome */
-.footerFont {
+footer p {
   width: 683px;
   height: 16px;
   font-family: Aprova;
