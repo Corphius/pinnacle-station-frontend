@@ -302,7 +302,8 @@ header {
   top: 553px
 }
 
-#aboutSquad {
+#aboutSquad p,
+#tutorials p {
   position: absolute;
   width: 130px;
   height: 21px;
@@ -331,7 +332,8 @@ header {
   color: #FFF;
 }
 
-#squadInfo p {
+#squadInfo p,
+#tutorialDescription p {
   position: absolute;
   width: 256px;
   height: 38px;
@@ -539,6 +541,427 @@ header {
   font-size: 14px;
   line-height: 120%;
   color: #F5F5F5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#progressBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 560px;
+  height: 45px;
+  left: 596px;
+  top: 248px;
+}
+
+#progressBarBar {
+  width: 560px;
+  height: 16px;
+  background: #636769;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#progressBarProgress {
+  position: absolute;
+  left: 0%;
+  right: 25%;
+  top: 0%;
+  bottom: 0%;
+  background: #00E88F;
+  border-radius: 10px;
+}
+
+#progressBarRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 560px;
+  height: 21px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#progressBarDescription p {
+  width: 205px;
+  height: 21px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 133%;
+  display: flex;
+  align-items: center;
+  color: #96999C;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#progressBarProgressPercentage p {
+  width: 28px;
+  height: 21px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 133%;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#lineThree {
+  position: absolute;
+  width: 1032px;
+  height: 0px;
+  left: 1156px;
+  top: 392px;
+  border: 1px solid #666;
+  transform: rotate(180deg);
+}
+
+#tutorialContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  position: absolute;
+  width: 1032px;
+  height: 456px;
+  left: 124px;
+  top: 452px;
+}
+
+#tutorialContentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 1032px;
+  height: 456px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#sectionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 175px;
+  height: 44px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#sectionTitle h2 {
+  width: 175px;
+  height: 44px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+  color: #F5F5F5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#contentList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1032px;
+  height: 404px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#tutorialVideos,
+#tutorialArticles,
+#tutorialExtraMaterial,
+#tutorialExercises {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px;
+  gap: 16px;
+  width: 1032px;
+  height: 100px;
+  border-bottom: 1px solid #666666;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 259px;
+  width: 1032px;
+  height: 52px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.accordionContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 250px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.accordionContentInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 143px;
+  height: 28px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.accordionTitle p {
+  width: 71px;
+  height: 28px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+  color: #F5F5F5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.accordionDescription {
+  width: 60px;
+  height: 24px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.8px;
+  color: #999999;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.accordionStatus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 7px;
+  gap: 4px;
+  width: 99px;
+  height: 32px;
+  border-radius: 300px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.statusCompleted,
+.statusCompletedIcon {
+  width: 63px;
+  height: 16px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #00E88F;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.statusCheck {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.accordionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 2px;
+  width: 160px;
+  height: 52px;
+  border-radius: 300px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.accordionButtonBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 156px;
+  height: 48px;
+  border: 1px solid #DDDDDD;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.accordionButtonBox span {
+  width: 92px;
+  height: 16px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #F2F2F3;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.accordionButtonArrow {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.accordionButtonArrow p {
+  position: absolute;
+  left: 78.12%;
+  right: -9.38%;
+  top: 69.79%;
+  bottom: -26.04%;
+  color: #F2F2F3;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+#exercisesButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 10px;
+  width: 217px;
+  height: 56px;
+  border-radius: 300px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#exercisesButtonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  gap: 8px;
+  width: 209px;
+  height: 48px;
+  background: #00F99D;
+  border-radius: 300px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#exercisesButtonContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 153px;
+  height: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#exercisesButtonContent span {
+  width: 153px;
+  height: 16px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
   flex: none;
   order: 0;
   flex-grow: 0;
