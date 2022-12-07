@@ -19,7 +19,7 @@ body {
   height: 76px;
   left: 46.95%;
   right: 46.99%;
-  top: 230px; 
+  top: 230px;
 }
 
 #subtitle {
@@ -135,10 +135,12 @@ body {
 
 header {
   background: #111111;
-  position: absolute;
+  position: fixed;
   width: 1280px;
   height: 80px;
-  left: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -210,6 +212,7 @@ header {
   left: calc(50% - 177px/2 + 427.5px);
   top: 25%;
   bottom: 25%;
+  cursor: pointer;
 }
 
 #userEmail {
@@ -285,7 +288,260 @@ header {
   width: 1032px;
   height: 120px;
   left: 124px;
+}
+
+#firstLine {
   top: 249px;
+}
+
+#secondLine {
+  top: 401px
+}
+
+#thirdLine {
+  top: 553px
+}
+
+#aboutSquad {
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 250px;
+  top: 160px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #999;
+}
+
+#squadName p {
+  position: absolute;
+  width: 279px;
+  height: 77px;
+  left: 250px;
+  top: 193px;
+  margin: 0;
+  font-family: Aprova;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #FFF;
+}
+
+#squadInfo p {
+  position: absolute;
+  width: 256px;
+  height: 38px;
+  left: 250px;
+  top: 294px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #DDD;
+}
+
+#slack {
+  position: absolute;
+  width: 150px;
+  height: 14px;
+  left: 250px;
+  top: 364px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#slackInfo {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 250px;
+  top: 383px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+#goToTutorialButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 10px;
+  position: absolute;
+  width: 165px;
+  height: 46px;
+  left: 250px;
+  top: 477px;
+  border-radius: 300px;
+}
+
+#goToTutorialButton button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 157px;
+  height: 38px;
+  background: #00F99D;
+  border-radius: 300px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+#goToTutorialButton button #goToTutorialButtonContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 109px;
+  height: 14px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#goToTutorialButton button #goToTutorialButtonContent span {
+  width: 109px;
+  height: 14px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#leaders {
+  position: absolute;
+  width: 50px;
+  height: 14px;
+  left: 850px;
+  top: 193px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#lineOne,
+#lineTwo {
+  position: absolute;
+  width: 497px;
+  height: 0px;
+  left: 850px;
+  border: 1px solid #666;
+  transform: rotate(180deg);
+}
+
+#lineOne {
+  top: 219px;
+}
+
+#lineTwo {
+  top: 372px;
+}
+
+#techLead {
+  position: absolute;
+  width: 270px;
+  height: 17px;
+  left: 850px;
+  top: 243px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #F5F5F5;
+}
+
+#productManager {
+  position: absolute;
+  width: 310px;
+  height: 17px;
+  left: 850px;
+  top: 276px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #F5F5F5;
+}
+
+#members {
+  position: absolute;
+  width: 90px;
+  height: 14px;
+  left: 850px;
+  top: 346px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+#membersList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 4px;
+  margin-left: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 400px;
+  height: 149px;
+  left: 850px;
+  top: 396px;
+}
+
+#membersList p {
+  width: 390px;
+  height: 17px;
+  margin: 4px;
+  margin-left: 0px;
+  font-family: Aprova;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #F5F5F5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 footer {
@@ -298,7 +554,9 @@ footer {
   position: absolute;
   width: 1280px;
   height: 64px;
-  left: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 829px;
   background: #191A1A;
   border-top: 1px solid #333333;

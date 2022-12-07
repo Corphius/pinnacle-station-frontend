@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write",
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "type": "module"
   },
   "dependencies": {
     "@types/node": "18.11.9",
