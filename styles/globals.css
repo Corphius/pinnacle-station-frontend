@@ -135,10 +135,12 @@ body {
 
 header {
   background: #111111;
-  position: absolute;
+  position: fixed;
   width: 1280px;
   height: 80px;
-  left: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -285,7 +287,18 @@ header {
   width: 1032px;
   height: 120px;
   left: 124px;
+}
+
+#firstLine {
   top: 249px;
+}
+
+#secondLine {
+  top: 401px
+}
+
+#thirdLine {
+  top: 553px
 }
 
 footer {
@@ -298,7 +311,9 @@ footer {
   position: absolute;
   width: 1280px;
   height: 64px;
-  left: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 829px;
   background: #191A1A;
   border-top: 1px solid #333333;
