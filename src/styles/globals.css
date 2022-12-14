@@ -3,14 +3,20 @@
   src: url(fonts/Aprova/Aprova-Regular.otf);
 }
 
-#container {
+.container {
   position: relative;
   min-height: 100vh;
+  margin-top: 80px;
 }
 
 body {
   background-color: #191A1A;
   position: relative;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
 }
 
 #logo {
@@ -519,8 +525,8 @@ header {
   top: 243px;
   font-family: Aprova;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
   color: #F5F5F5;
 }
@@ -533,8 +539,8 @@ header {
   top: 276px;
   font-family: Aprova;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
   color: #F5F5F5;
 }
@@ -576,8 +582,8 @@ header {
   margin-left: 0px;
   font-family: Aprova;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
   color: #F5F5F5;
   flex: none;
@@ -773,7 +779,7 @@ header {
   align-items: center;
   padding: 0px;
   gap: 259px;
-  width: 1032px;
+  width: auto;
   height: 52px;
   flex: none;
   order: 0;
@@ -785,10 +791,9 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   padding: 0px;
   gap: 8px;
-  width: 250px;
+  width: auto;
   height: 32px;
   flex: none;
   order: 0;
@@ -801,7 +806,7 @@ header {
   align-items: center;
   padding: 0px;
   gap: 12px;
-  width: 143px;
+  width: auto;
   height: 28px;
   flex: none;
   order: 0;
@@ -845,7 +850,7 @@ header {
 .accordionStatus {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   padding: 7px;
   gap: 4px;
   width: 99px;
@@ -876,6 +881,7 @@ header {
 .statusCheck {
   width: 18px;
   height: 18px;
+  margin-left: 4px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -898,14 +904,12 @@ header {
 
 .accordionButtonBox {
   box-sizing: border-box;
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
+  justify-content: center;
   gap: 8px;
-  width: 156px;
-  height: 48px;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #DDD;
   border-radius: 24px;
   flex: none;
   order: 0;
@@ -913,7 +917,7 @@ header {
 }
 
 .accordionButtonBox span {
-  width: 92px;
+  width: 120px;
   height: 16px;
   font-family: Aprova;
   font-style: normal;
@@ -927,24 +931,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.accordionButtonArrow {
-  width: 24px;
-  height: 24px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.accordionButtonArrow p {
-  position: absolute;
-  left: 78.12%;
-  right: -9.38%;
-  top: 69.79%;
-  bottom: -26.04%;
-  color: #F2F2F3;
-  transform: matrix(0, -1, -1, 0, 0, 0);
+  padding-left: 9px;
 }
 
 #exercisesButton {
@@ -959,17 +946,15 @@ header {
   flex: none;
   order: 1;
   flex-grow: 0;
+  background: 0;
 }
 
 #exercisesButtonBox {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 16px 28px;
   gap: 8px;
-  width: 209px;
-  height: 48px;
   background: #00F99D;
   border-radius: 300px;
   flex: none;
@@ -1016,12 +1001,7 @@ footer {
   align-items: flex-start;
   padding: 24px 0px 24px 124px;
   gap: 24px;
-  position: absolute;
-  height: 64px;
-  left: 0;
-  right: 0;
   margin: auto;
-  top: 829px;
   background: #191A1A;
   border-top: 1px solid #333333;
 }

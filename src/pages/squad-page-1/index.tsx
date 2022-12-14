@@ -49,11 +49,11 @@ export default function SquadPageOne() {
             <div id="lineOne"></div>
 
             <div id="techLead">
-                <p>Tech Lead | Nome Sobrenome</p>
+                <p>Tech Lead | Ítalo Nascimento</p>
             </div>
 
             <div id="productManager">
-                <p>Product Manager | Nome Sobrenome</p>
+                <p>Product Manager | Mônica Wagner</p>
             </div>
 
             <div id="members">
@@ -63,11 +63,12 @@ export default function SquadPageOne() {
             <div id="lineTwo"></div>
 
             <div id="membersList">
-                <p>Software Engineer Jr | Nome Sobrenome</p>
-                <p>Software Engineer Pl | Nome Sobrenome</p>
-                <p>Software Engineer Sr | Nome Sobrenome</p>
-                <p>Product Designer Jr | Nome Sobrenome</p>
-                <p>Product Designer Pl | Nome Sobrenome</p>
+                <p>Software Engineer Jr | Juan Junger</p>
+                <p>Software Engineer Pl | Eduardo Neto</p>
+                <p>Software Engineer Sr | Vinícius Trampusch</p>
+                <p>Software Engineer Sr | Alexandre Tondello</p>
+                <p>Product Designer | Isabela Caserta</p>
+                <p>Product Designer | Beatriz Fortes</p>
             </div>
         </div>
     );

@@ -16,7 +16,7 @@ export default function SquadPageTwo() {
             </div>
 
             <div id="squadName">
-                <p>Payments</p>
+                <p>Enrollments</p>
             </div>
 
             <div id="squadInfo">
@@ -28,18 +28,16 @@ export default function SquadPageTwo() {
             </div>
 
             <div id="slackInfo">
-                <p>#team-payments</p>
-                <p>@team-payments</p>
+                <p>#team-enrollments</p>
+                <p>@team-enrollments</p>
             </div>
 
             <div id="goToTutorialButton">
-                <Link href={'/tutorial-page'}>
-                    <button>
-                        <span id="goToTutorialButtonContent">
-                            <span>Acessar tutoriais</span>
-                        </span>
-                    </button>
-                </Link>
+                <button>
+                    <span id="goToTutorialButtonContent">
+                        <span>Acessar tutoriais</span>
+                    </span>
+                </button>
             </div>
             <div id="leaders">
                 <p>Líderes</p>
@@ -48,11 +46,11 @@ export default function SquadPageTwo() {
             <div id="lineOne"></div>
 
             <div id="techLead">
-                <p>Tech Lead | Nome Sobrenome</p>
+                <p>Tech Lead | Vitor Andrade</p>
             </div>
 
             <div id="productManager">
-                <p>Product Manager | Nome Sobrenome</p>
+                <p>Product Manager | João Prado</p>
             </div>
 
             <div id="members">
@@ -62,11 +60,11 @@ export default function SquadPageTwo() {
             <div id="lineTwo"></div>
 
             <div id="membersList">
-                <p>Software Engineer Jr | Nome Sobrenome</p>
-                <p>Software Engineer Pl | Nome Sobrenome</p>
-                <p>Software Engineer Sr | Nome Sobrenome</p>
-                <p>Product Designer Jr | Nome Sobrenome</p>
-                <p>Product Designer Pl | Nome Sobrenome</p>
+                <p>Software Engineer Jr | Luis Otávio</p>
+                <p>Software Engineer Pl | Gabriel de Moura</p>
+                <p>Software Engineer Sr | Yuri Franco</p>
+                <p>Product Designer | Isabela Caserta</p>
+                <p>Product Designer | Beatriz Fortes</p>
             </div>
         </div>
     );
