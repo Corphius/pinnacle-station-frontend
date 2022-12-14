@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/squad-page": [
+    "/squad-page-2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/squad-page.js"
+      "static/chunks/pages/squad-page-2.js"
+    ],
+    "/squad-selection-page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/squad-selection-page.js"
     ]
   },
   "ampFirstPages": []

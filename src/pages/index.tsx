@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Login() {
@@ -26,10 +27,12 @@ export default function Login() {
 
       <div id='loginbutton'>
         <button>
-          <span id='loginButtonContent'>
-            <Image src='/images/googleLogo.png' alt='Logo Google' width={14} height={14} />
-            <span>Entrar com o Google</span>
-          </span>
+          <Link href={'/squad-selection-page'}>
+            <span id='loginButtonContent'>
+              <Image src='/images/googleLogo.png' alt='Logo Google' width={14} height={14} />
+              <span>Entrar com o Google</span>
+            </span>
+          </Link>
         </button>
       </div>
 

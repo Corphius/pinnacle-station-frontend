@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/squad-page": "pages/squad-page.js"
+  "/squad-page-2": "pages/squad-page-2.js",
+  "/squad-selection-page": "pages/squad-selection-page.js"
 }

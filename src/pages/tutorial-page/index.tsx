@@ -70,10 +70,7 @@ export default function TutorialPage() {
                                 </div>
                                 <button className="accordionButton">
                                     <div className="accordionButtonBox">
-                                        <span>Mostrar todos</span>
-                                    </div>
-                                    <div className="accordionButtonArrow">
-                                        <p>˅</p>
+                                        <span>Mostrar todos ▼</span>
                                     </div>
                                 </button>
                             </div>
@@ -102,10 +99,7 @@ export default function TutorialPage() {
                                 </div>
                                 <button className="accordionButton">
                                     <div className="accordionButtonBox">
-                                        <span>Mostrar todos</span>
-                                    </div>
-                                    <div className="accordionButtonArrow">
-                                        <p>˅</p>
+                                        <span>Mostrar todos ▼</span>
                                     </div>
                                 </button>
                             </div>
@@ -134,10 +128,7 @@ export default function TutorialPage() {
                                 </div>
                                 <button className="accordionButton">
                                     <div className="accordionButtonBox">
-                                        <span>Mostrar todos</span>
-                                    </div>
-                                    <div className="accordionButtonArrow">
-                                        <p>˅</p>
+                                        <span>Mostrar todos ▼</span>
                                     </div>
                                 </button>
                             </div>
