@@ -33,7 +33,7 @@ export default function SquadSelection({ squads }: any) {
         <div className="squadCircle">
           <Link href={'/squad-page-1'}>
             <Image
-              src="/public/Ellipse.png"
+              src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
               alt="Elipse"
               width={120}
               height={120}
@@ -43,7 +43,7 @@ export default function SquadSelection({ squads }: any) {
         <div className="squadCircle">
           <Link href={'/squad-page-2'}>
             <Image
-              src="/public/Ellipse.png"
+              src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
               alt="Elipse"
               width={120}
               height={120}
@@ -52,7 +52,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -60,7 +60,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -68,7 +68,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -76,7 +76,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -84,7 +84,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -95,7 +95,7 @@ export default function SquadSelection({ squads }: any) {
       <div id="secondLine">
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -103,7 +103,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -111,7 +111,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -119,7 +119,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -127,7 +127,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -135,7 +135,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -143,7 +143,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -154,7 +154,7 @@ export default function SquadSelection({ squads }: any) {
       <div id="thirdLine">
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -162,7 +162,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -170,7 +170,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -178,7 +178,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -186,7 +186,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -194,7 +194,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
@@ -202,7 +202,7 @@ export default function SquadSelection({ squads }: any) {
         </div>
         <div className="squadCircle">
           <Image
-            src="/public/Ellipse.png"
+            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
             alt="Elipse"
             width={120}
             height={120}
