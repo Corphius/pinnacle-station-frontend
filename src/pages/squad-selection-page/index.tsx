@@ -1,12 +1,24 @@
 import React from "react";
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Link from "next/link";
+import Image from 'next/image';
+import { squads } from "../squad-page";
 
-export default function SquadSelection() {
+export async function getStaticProps() {
+    // const data = await fetch ('');
+    // const todo = await data.json();
+
+    return {
+        props: {
+            squads,
+        }
+    }
+
+}
+
+export default function SquadSelection({ squads }: any) {
     return (
-
         <div className="container">
-
             <Head>
                 <title>Seleção de Squad</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,9 +30,15 @@ export default function SquadSelection() {
             </div>
 
             <div id="firstLine">
-                <div className="squadCircle">
-                    <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
-                </div>
+                {squads.map((squad: any) => {
+                    return (
+                        <Link href={`/squad-page/${squad.id}`}>
+                            <div className="squadCircle">
+                                <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                            </div>
+                        </Link>
+                    )
+                })}
                 <div className="squadCircle">
                     <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
                 </div>

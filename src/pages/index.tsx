@@ -13,7 +13,7 @@ export default function Login() {
       </Head>
 
       <div id='logo'>
-        <Image src='/images/descoSymbol.png' alt='Logo Descomplica' width={76} height={76} />
+        <Image src='/images/descoSymbolHome.png' alt='Logo Descomplica' width={76} height={76} />
       </div>
 
       <div id='subtitle'>
