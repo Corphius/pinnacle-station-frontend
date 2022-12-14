@@ -3,6 +3,11 @@
   src: url(fonts/Aprova/Aprova-Regular.otf);
 }
 
+#container {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   background-color: #191A1A;
   position: relative;
@@ -589,7 +594,7 @@ header {
   position: absolute;
   width: 560px;
   height: 45px;
-  left: 596px;
+  left: 720px;
   top: 248px;
 }
 
@@ -780,6 +785,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 0px;
   gap: 8px;
   width: 250px;

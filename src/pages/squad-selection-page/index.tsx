@@ -2,19 +2,19 @@ import React from "react";
 import Head from 'next/head';
 import Link from "next/link";
 import Image from 'next/image';
-import { squads } from "../squad-page";
+// import { squads } from "../squad-page";
 
-export async function getStaticProps() {
-    // const data = await fetch ('');
-    // const todo = await data.json();
+// export async function getStaticProps() {
+//     // const data = await fetch ('');
+//     // const todo = await data.json();
 
-    return {
-        props: {
-            squads,
-        }
-    }
+//     return {
+//         props: {
+//             squads,
+//         }
+//     }
 
-}
+// }
 
 export default function SquadSelection({ squads }: any) {
     return (
@@ -30,17 +30,15 @@ export default function SquadSelection({ squads }: any) {
             </div>
 
             <div id="firstLine">
-                {squads.map((squad: any) => {
-                    return (
-                        <Link href={`/squad-page/${squad.id}`}>
-                            <div className="squadCircle">
-                                <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
-                            </div>
-                        </Link>
-                    )
-                })}
                 <div className="squadCircle">
-                    <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    <Link href={'/squad-page-1'}>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </Link>
+                </div>
+                <div className="squadCircle">
+                    <Link href={'/squad-page-2'}>
+                        <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
+                    </Link>
                 </div>
                 <div className="squadCircle">
                     <Image src='/images/Ellipse.png' alt='Elipse' width={120} height={120} />
