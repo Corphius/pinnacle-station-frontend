@@ -32,181 +32,76 @@ export default function SquadSelection({ squads }: any) {
       <div id="firstLine">
         <div className="squadCircle">
           <Link href={'/squad-page-1'}>
-            <Image
-              src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-              alt="Elipse"
-              width={120}
-              height={120}
-            />
+            <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
           </Link>
         </div>
         <div className="squadCircle">
           <Link href={'/squad-page-2'}>
-            <Image
-              src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-              alt="Elipse"
-              width={120}
-              height={120}
-            />
+            <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
           </Link>
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
       </div>
 
       <div id="secondLine">
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
       </div>
 
       <div id="thirdLine">
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
         <div className="squadCircle">
-          <Image
-            src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/Ellipse.png?raw=true"
-            alt="Elipse"
-            width={120}
-            height={120}
-          />
+          <Image src="/Ellipse.png" alt="Elipse" width={120} height={120} />
         </div>
       </div>
     </div>

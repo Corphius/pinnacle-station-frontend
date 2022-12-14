@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <header>
               <div id="logoHeader">
                 <Image
-                  src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/descoSymbol.png?raw=true"
+                  src="/descoSymbol.png"
                   alt="Logo Descomplica"
                   width={42}
                   height={44.52}
@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }: AppProps) {
                     <div id="userEmailEssential">
                       <Image
                         id="userEmailImage"
-                        src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/userIcon.png?raw=true"
+                        src="/userIcon.png"
                         alt="Ícone Usuário"
                         width={24}
                         height={24}

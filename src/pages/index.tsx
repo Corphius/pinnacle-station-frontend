@@ -16,7 +16,7 @@ export default function Login() {
 
       <div id="logo">
         <Image
-          src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/descoSymbolHome.png?raw=true"
+          src="/descoSymbolHome.png"
           alt="Logo Descomplica"
           width={76}
           height={76}
@@ -36,7 +36,7 @@ export default function Login() {
           <Link href={'/squad-selection-page'}>
             <span id="loginButtonContent">
               <Image
-                src="https://github.com/pinnacle-station/pinnacle-station-frontend/blob/main/public/googleLogo.png?raw=true"
+                src="/googleLogo.png"
                 alt="Logo Google"
                 width={14}
                 height={14}
