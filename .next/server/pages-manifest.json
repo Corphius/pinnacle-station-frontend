@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/squad-page-1": "pages/squad-page-1.html",
+  "/squad-page-2": "pages/squad-page-2.html",
+  "/tutorial-page": "pages/tutorial-page.html",
+  "/squad-page": "pages/squad-page.html",
+  "/squad-selection-page": "pages/squad-selection-page.html",
   "/_document": "pages/_document.js",
-  "/squad-page-2": "pages/squad-page-2.js",
-  "/squad-selection-page": "pages/squad-selection-page.js"
+  "/404": "pages/404.html"
 }
